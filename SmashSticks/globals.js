@@ -80,3 +80,7 @@ function mid2Edge(c, l) {
 	///Note: If l < 0 it returns the bottom-rightmost point
 	return c - l/2;
 }
+
+function distance (a, b) {
+	return Math.sqrt((a.x - b.x) + (a.y - b.y))
+}
